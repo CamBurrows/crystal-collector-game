@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/game.js"></script>
+    <link rel ="stylesheet" href="assets/style.css">
+    <title>Crystal Collector</title>
+    
+</head>
+<body>
+    <div class="container">
+        
+        <div class="title">
+            <h1>Crystal Collector!</h1>
+        </div>
+
+        <div class="instructions">
+            <h2>At the start of each game a random target number will be generated.
+                <br>
+                Each crystal has a mysery value, click on a crystal to add its corresponding
+                value to your total score.
+                <br>
+                In order to win, match your score exactly with the target score; if you go over, you lose!
+                <br>
+                The value of each gem will change when a new game starts.
+            </h2>
+        </div>
+
+        <div class="targetbox">
+            <h2>Target Number: </h2>
+            <div class="targetnumber"></div>
+        </div>
+
+        <div class="win-loss">
+            <p id="wins"></p>
+            <p id="loss"></p>
+        </div>
+        
+
+        <div class="gems">
+            <img id="gem1" src="assets/images/crystal.jpeg">
+            <img id="gem2" src="assets/images/crystal-pink.jpg">
+            <img id="gem3" src="assets/images/crystal-orange.jpg">
+            <img id="gem4" src="assets/images/crystal-green.jpg">
+        </div>
+
+        <div class="scorebox">
+            <h2>Total Score:</h2>
+            <div id="player-score"></div>
+        </div>
+    
+    </div>
+
+</body>
+</html>

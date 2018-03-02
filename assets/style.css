@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 70%;
+    margin: auto;
+}
+
+.title {
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2px 0px;
+    margin-bottom: 4px;
+}
+
+.instructions {
+    width: 100%;
+    color: white;
+    background-color: black;
+    padding: 4px 10px;
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 4px;
+}
+
+.targetbox {
+    width: 49%;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 1px 0px;
+    float: left;
+}
+
+.win-loss {
+    width: 49%;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 1px 0px;
+    float: left;
+    margin-left: 2%;
+    height:116px;
+}
+
+.gems {
+    width:100%;
+}
+
+#gem1,
+#gem2,
+#gem3,
+#gem4{
+    width: 25%;
+    float: right;
+    margin-top:20px;
+}
+
+.scorebox {
+    width: 100%;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    margin-top:20px;
+    float:right;
+}
+
