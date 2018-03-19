@@ -110,7 +110,7 @@ $(document).ready(function() {
             lose++;
             $("#loss").html("<h2>Losses: " + lose + "</h2>");
             $("#player-score").addClass();
-            gamereset();
+            restart();
         }
     });
 
